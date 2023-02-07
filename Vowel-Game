@@ -1,0 +1,67 @@
+using System;
+using System.CodeDom;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Q4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // declaration 
+            string user;
+
+            // initialization 
+            user = "";
+
+
+            
+
+
+            for (int i = 0; i < 5 ; i++)
+            {
+                Console.Write("Please enter a letter: ");
+                user = Console.ReadLine();
+
+                switch (user)
+                {
+                    case "A":
+                        Console.WriteLine("\nYour Letter is a Vowel\n");
+                        break;
+                    case "a":
+                        Console.WriteLine("Your Letter is a Vowel");
+                        break;
+                    case "E":
+                        Console.WriteLine("Your Letter is a Vowel");
+                        break;
+                    case "e":
+                        Console.WriteLine("Your Letter is a Vowel");
+                        break;
+                    case "I":
+                        Console.WriteLine("Your Letter is a Vowel");
+                        break;
+                    case "i":
+                        Console.WriteLine("Your Letter is a Vowel");
+                        break;
+                    case "O":
+                        Console.WriteLine("Your Letter is a Vowel");
+                        break;
+                    case "o":
+                        Console.WriteLine("Your Letter is a Vowel");
+                        break;
+                    default:
+                        Console.WriteLine("Your Letter is not a Vowel");
+                        break;
+
+                }
+
+            }
+
+            Console.ReadLine();
+        }
+
+    }
+}
