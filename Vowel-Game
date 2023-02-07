@@ -32,28 +32,34 @@ namespace Q4
                         Console.WriteLine("\nYour Letter is a Vowel\n");
                         break;
                     case "a":
-                        Console.WriteLine("Your Letter is a Vowel");
+                        Console.WriteLine("\nYour Letter is a Vowel\n");
                         break;
                     case "E":
-                        Console.WriteLine("Your Letter is a Vowel");
+                        Console.WriteLine("\nYour Letter is a Vowel\n");
                         break;
                     case "e":
-                        Console.WriteLine("Your Letter is a Vowel");
+                        Console.WriteLine("\nYour Letter is a Vowel\n");
                         break;
                     case "I":
-                        Console.WriteLine("Your Letter is a Vowel");
+                        Console.WriteLine("\nYour Letter is a Vowel\n");
                         break;
                     case "i":
-                        Console.WriteLine("Your Letter is a Vowel");
+                        Console.WriteLine("\nYour Letter is a Vowel\n");
                         break;
                     case "O":
-                        Console.WriteLine("Your Letter is a Vowel");
+                        Console.WriteLine("\nYour Letter is a Vowel\n");
                         break;
                     case "o":
-                        Console.WriteLine("Your Letter is a Vowel");
+                        Console.WriteLine("\nYour Letter is a Vowel\n");
+                        break;
+                    case "u":
+                        Console.WriteLine("\nYour Letter is a Vowel\n");
+                        break;
+                    case "U":
+                        Console.WriteLine("\nYour Letter is a Vowel\n");
                         break;
                     default:
-                        Console.WriteLine("Your Letter is not a Vowel");
+                        Console.WriteLine("\nYour Letter is not a Vowel\n");
                         break;
 
                 }
